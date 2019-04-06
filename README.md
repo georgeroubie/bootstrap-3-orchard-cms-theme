@@ -1,4 +1,4 @@
-# Responsive Theme For Developers - Orchard CMS
+# Bootstrap 4 Orchard CMS Theme - Orchard CMS
 
 ## Installation
 ### Global Installation
@@ -66,6 +66,3 @@
 + Disable button on form submit
 + Customized blogpost
 + Gulp for compiling SCSS, JavaScript compression, CSS Prefixing, Image minification etc.
-
-## Orchard Gallery
-+ [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)

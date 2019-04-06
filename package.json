@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-4-orchard-cms-theme",
   "version": "1.0.0",
-  "description": "Bootstrap 4 Orchard CMS Theme optimized for Orchard 1.10.3",
+  "description": "Bootstrap 4 Orchard CMS Theme optimized for Orchard 1.10.2",
   "main": "Document.cshtml",
   "scripts": {
     "start": "gulp initialize"

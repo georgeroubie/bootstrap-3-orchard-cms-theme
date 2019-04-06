@@ -1,4 +1,4 @@
-# Bootstrap 4 Orchard CMS Theme - Orchard CMS
+# Bootstrap 4 Orchard CMS Theme
 
 ## Installation
 ### Global Installation

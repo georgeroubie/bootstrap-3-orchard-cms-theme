@@ -1,12 +1,11 @@
 ﻿// Share buttons snippet
 .share-btn-container {
-    text-align: center;
-    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
     .share-btn {
         display: inline-block;
-        margin-right: 5px;
-    }
-    .fb-share-button > span {
-        height: 25px !important;
+        height: 20px;
+        margin: 0 5px;
     }
 }

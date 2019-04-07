@@ -1,0 +1,52 @@
+﻿// Author: George Roubie - george.roubie@gmail.com
+// Style Guide: https://github.com/georgeroubie/CSS-Style-Guide#readme
+// Architecture: https://github.com/georgeroubie/SCSS-7-1-pattern
+
+// Bootstrap 
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$icon-font-path: '../fonts/';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap'; 
+
+// FontAwesome  
+@import '../node_modules/font-awesome/scss/font-awesome'; 
+
+// Toastr
+@import '../node_modules/toastr/toastr';
+
+// Abstracts
+@import './abstracts/_variables';
+@import './abstracts/_colors';
+@import './abstracts/_mixins';
+@import './abstracts/_placeholders';
+@import './abstracts/_classes';
+@import './abstracts/_animations'; 
+
+// Base
+@import './base/_base'; 
+@import './base/_reset'; 
+@import './base/_typography';
+
+// Layout
+@import './layout/_grid';
+@import './layout/_header';
+@import './layout/_footer';
+@import './layout/_menu';
+@import './layout/_forms';
+@import './layout/_tables';
+
+// Components
+@import './components/_buttons';
+@import './components/_cookie-bar';
+@import './components/_dropdown';
+@import './components/_loader';
+@import './components/_modal';
+@import './components/_pager';
+@import './components/_share-btn';
+@import './components/_tags';
+
+// Vendors Extensions
+@import './vendors-extensions/_toastr.scss';
+
+// Pages
+@import './pages/_blog';
+@import './pages/_search';

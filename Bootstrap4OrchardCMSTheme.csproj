@@ -169,7 +169,7 @@
     <Content Include="package.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scss\main.scss" />
+    <Content Include="scss\styles.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scss\Web.config" />

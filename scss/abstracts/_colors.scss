@@ -1,0 +1,38 @@
+// Color Variables
+
+:root {
+    --theme-textcolor: #000;
+    --theme-lighttextcolor: #fff;
+    --theme-backgroundcolor: #fff;
+    --theme-maincolor: #005B72;
+    --theme-inactivecolor: #8e969d;
+    --theme-errorcolor: #d32f2f;
+}
+
+// Theme colors
+$theme-textcolor: var(--theme-textcolor);
+$theme-lighttextcolor: var(--theme-lighttextcolor);
+$theme-backgroundcolor: var(--theme-backgroundcolor);
+$theme-maincolor: var(--theme-maincolor);
+$theme-inactivecolor: var(--theme-inactivecolor);
+$theme-errorcolor: var(--theme-errorcolor);
+
+// General
+$titleColor: $theme-textcolor;
+$textColor: $theme-textcolor;
+$anchorColor: $theme-textcolor;
+
+// Loader
+$loaderColor: $theme-maincolor;
+
+// Pager
+$pagerActiveBackground: $theme-maincolor;
+$pagerActiveColor: $theme-lighttextcolor;
+$pagerBackground: $theme-backgroundcolor;
+$pagerColor: $theme-textcolor;
+
+// Search
+$searchResultItemColor: $theme-maincolor;
+
+// Forms
+$formValidationError: $theme-errorcolor

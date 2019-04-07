@@ -1,0 +1,37 @@
+// Typography rules
+
+// Text Colors 
+html,
+body {
+    color: $theme-textcolor;
+}
+.text-error {
+    color: $theme-errorcolor;
+} 
+.text-maincolor {
+    color: $theme-textcolor;
+}
+
+// Content Item title
+.main-title {
+    @include font-style(30px, $titleColor);
+}
+.main-subtitle {
+    @include font-style(24px, $titleColor);
+}
+.content-item{
+    h1 {
+        @extend .main-title;
+    }
+}
+.page-title {
+    @extend .main-title;
+}
+
+// Anchor
+a {
+    color: $anchorColor;
+    &:hover {
+        color: $anchorColor;
+    }
+}

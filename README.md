@@ -15,7 +15,7 @@
 
 ## Add a new SCSS library (or CSS library)
 + Install the library with npm (don't forget to add --save)
-+ Import the library in this file: `scss/main.scss`
++ Import the library in this file: `scss/styles.scss`
 + Run `npm start` and you are ready.
 
 ## Add a new JavaScript library

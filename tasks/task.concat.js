@@ -6,7 +6,7 @@ gulp.task('concatLib', function () {
     return gulp.src([
         './node_modules/jquery/dist/jquery.js',
         '../../Modules/Orchard.DynamicForms/Scripts/Lib.js',
-        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+        './node_modules/bootstrap/dist/js/bootstrap.js',
         './node_modules/toastr/toastr.js'
     ])
     .pipe(concat('libraries.js'))

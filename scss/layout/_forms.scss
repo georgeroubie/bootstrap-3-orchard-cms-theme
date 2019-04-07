@@ -39,7 +39,7 @@ div.validation-summary-errors {
     @extend .form-group;
     button {
         @extend .btn;
-        @extend .btn-default;
+        @extend .btn-link;
     }
 }
 .form-field-element-enumeration {

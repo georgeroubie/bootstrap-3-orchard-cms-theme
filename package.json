@@ -7,9 +7,13 @@
         "start": "gulp initialize"
     },
     "devDependencies": {
+        "@babel/core": "7.4.3",
+        "@babel/preset-env": "7.4.3",
+        "babel": "6.23.0",
         "browser-sync": "2.26.3",
         "gulp": "4.0.0",
         "gulp-autoprefixer": "6.0.0",
+        "gulp-babel": "8.0.0",
         "gulp-clean-css": "4.0.0",
         "gulp-concat": "2.6.1",
         "gulp-favicons": "2.3.0",

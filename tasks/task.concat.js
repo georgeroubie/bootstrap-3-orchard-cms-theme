@@ -1,5 +1,6 @@
 ﻿var gulp = require('gulp'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    babel = require('gulp-babel');
 
 gulp.task('concatLib', function () {
     return gulp.src([
@@ -17,6 +18,9 @@ gulp.task('concatApp', function () {
         './js/src/cookiebar.js',
         './js/src/custom.js'
     ])
+    .pipe(babel({
+        presets: ['@babel/preset-env']
+    }))
     .pipe(concat('application.js'))
     .pipe(gulp.dest('./js/dist/'));
 });

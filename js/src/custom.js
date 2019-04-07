@@ -1,5 +1,4 @@
 ﻿(function () {
-    
     // Toastr options
     toastr.options = {
         'showDuration': '1000',
@@ -34,7 +33,7 @@
     });
 
     // Toastr Messages 
-    var messageElement;
+    let messageElement;
     $('.zone-messages .message').each(function () {
         messageElement = $(this);
         if (messageElement.hasClass('message-Information')) {

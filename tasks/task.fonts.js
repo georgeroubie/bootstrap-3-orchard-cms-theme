@@ -18,9 +18,10 @@ var libPaths = {
     }
 };
 
-gulp.task('fonts', function () {
-    // fonts
-    for (var item in libPaths.src.fonts) {
-        gulp.src(libPaths.src.fonts[item]).pipe(gulp.dest(basePaths.dest.rootFonts))
-    }
+gulp.task('bootstrap-fonts', function () {
+    return gulp.src(libPaths.src.fonts.bootstrap).pipe(gulp.dest(basePaths.dest.rootFonts));
+});
+
+gulp.task('fontawesome-fonts', function () {
+    return gulp.src(libPaths.src.fonts.fontawesome).pipe(gulp.dest(basePaths.dest.rootFonts));
 });

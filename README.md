@@ -25,6 +25,8 @@
 
 ## Use fonts from a new library that you installed
 + Add the fonts path in the `tasks/task.fonts.js` , in the `libPaths.src.fonts` object
++ Create a new task in the `tasks/task.fonts.js` that will copy the font
++ Add the name of the task in `tasks/task.initialize.js`
 + Run `npm start` and you are ready.
 
 ## Create a new JavaScript file

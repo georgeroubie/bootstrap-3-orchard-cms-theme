@@ -9,7 +9,8 @@ gulp.task('initialize', gulp.series(
     // Generate Favicon for multiple devices
     'favicon',
     // Copy fonts from node_modules
-    //'fonts',
+    'bootstrap-fonts',
+    'fontawesome-fonts',
     // SASS compiling, autoprefixing, compressing
     'sass',
     'prefix',

@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="fonts\opensans.js" />
+    <Content Include="fonts\font-loading.js" />
     <Content Include="gulpfile.js" />
     <Content Include="img\src\logo.png" />
     <Content Include="js\src\custom.js" />
@@ -114,8 +114,8 @@
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
     <Content Include="ThemeZonePreview.png" />
-    <Content Include="Views\Elements\AuthenticatedUserSnippet.txt" />
-    <Content Include="Views\Elements\iFrameSnippet.txt" />
+    <Content Include="views\Elements\AuthenticatedUserSnippet.txt" />
+    <Content Include="views\Elements\iFrameSnippet.txt" />
     <Content Include="Web.config" />
     <Content Include="js\Web.config" />
     <Content Include="img\Web.config" />
@@ -133,31 +133,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BlogPost.Body.Summary.cshtml" />
-    <Content Include="Views\BlogPost.CreatedDate.cshtml" />
-    <Content Include="Views\BlogPost.Title.cshtml" />
-    <Content Include="Views\BlogPost.Title.Summary.cshtml" />
-    <Content Include="Views\Document.cshtml" />
-    <Content Include="Views\Dropdown.cshtml" />
-    <Content Include="Views\Elements\Checkbox.cshtml" />
-    <Content Include="Views\Elements\Column.cshtml" />
-    <Content Include="Views\Elements\Enumeration-CheckList.cshtml" />
-    <Content Include="Views\Elements\Enumeration-RadioList.cshtml" />
-    <Content Include="Views\Elements\Form.cshtml" />
-    <Content Include="Views\Elements\Grid.cshtml" />
-    <Content Include="Views\Elements\Image.cshtml" />
-    <Content Include="Views\Elements\ShareButtonSnippet.cshtml" />
-    <Content Include="Views\ErrorPage.cshtml" />
-    <Content Include="Views\Layout.cshtml" />
-    <Content Include="Views\LogOn.cshtml" />
-    <Content Include="Views\Menu-main-menu.cshtml" />
-    <Content Include="Views\MenuItem-main-menu.cshtml" />
-    <Content Include="Views\NotFound.cshtml" />
-    <Content Include="Views\Pager.cshtml" />
-    <Content Include="Views\Pager.CurrentPage.cshtml" />
-    <Content Include="Views\Pager.Gap.cshtml" />
-    <Content Include="Views\SiteFooter.cshtml" />
-    <Content Include="Views\Widget.Wrapper.cshtml" />
+    <Content Include="views\BlogPost.Body.Summary.cshtml" />
+    <Content Include="views\BlogPost.CreatedDate.cshtml" />
+    <Content Include="views\BlogPost.Title.cshtml" />
+    <Content Include="views\BlogPost.Title.Summary.cshtml" />
+    <Content Include="views\Document.cshtml" />
+    <Content Include="views\Dropdown.cshtml" />
+    <Content Include="views\Elements\Checkbox.cshtml" />
+    <Content Include="views\Elements\Column.cshtml" />
+    <Content Include="views\Elements\Enumeration-CheckList.cshtml" />
+    <Content Include="views\Elements\Enumeration-RadioList.cshtml" />
+    <Content Include="views\Elements\Form.cshtml" />
+    <Content Include="views\Elements\Grid.cshtml" />
+    <Content Include="views\Elements\Image.cshtml" />
+    <Content Include="views\Elements\ShareButtonSnippet.cshtml" />
+    <Content Include="views\ErrorPage.cshtml" />
+    <Content Include="views\Layout.cshtml" />
+    <Content Include="views\LogOn.cshtml" />
+    <Content Include="views\Menu-main-menu.cshtml" />
+    <Content Include="views\MenuItem-main-menu.cshtml" />
+    <Content Include="views\NotFound.cshtml" />
+    <Content Include="views\Pager.cshtml" />
+    <Content Include="views\Pager.CurrentPage.cshtml" />
+    <Content Include="views\Pager.Gap.cshtml" />
+    <Content Include="views\SiteFooter.cshtml" />
+    <Content Include="views\Widget.Wrapper.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Placement.info" />
@@ -175,22 +175,7 @@
     <Content Include="scss\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scss\reusable\_animations.scss" />
-    <Content Include="scss\reusable\_buttons.scss" />
-    <Content Include="scss\reusable\_colors.scss" />
-    <Content Include="scss\reusable\_fonts.scss" />
-    <Content Include="scss\reusable\_forms.scss" />
-    <Content Include="scss\reusable\_mixins.scss" />
-    <Content Include="scss\reusable\_variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="scss\components\_cookie-bar.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="scss\components\_menu.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="scss\components\_blog.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scss\components\_loader.scss" />
@@ -199,13 +184,7 @@
     <Content Include="scss\components\_pager.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scss\snippets\_share-btn.scss" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="scss\layout\_footer.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="scss\layout\_basic.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scss\layout\_grid.scss" />
@@ -217,29 +196,59 @@
     <Content Include="tasks\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Register.cshtml" />
+    <Content Include="views\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Orchard.Search\Search\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="scss\components\_search.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="scss\reusable\_classes.scss" />
+    <Content Include="views\Orchard.Search\Search\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Views\BlogPost.Tags.cshtml" />
+    <Content Include="views\BlogPost.Tags.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scss\components\_tags.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Elements\iFrameSnippet.cshtml" />
+    <Content Include="views\Elements\iFrameSnippet.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Elements\AuthenticatedUserSnippet.cshtml" />
+    <Content Include="views\Elements\AuthenticatedUserSnippet.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\abstracts\_animations.scss" />
+    <Content Include="scss\abstracts\_classes.scss" />
+    <Content Include="scss\abstracts\_colors.scss" />
+    <Content Include="scss\abstracts\_mixins.scss" />
+    <Content Include="scss\abstracts\_placeholders.scss" />
+    <Content Include="scss\abstracts\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\base\_base.scss" />
+    <Content Include="scss\base\_reset.scss" />
+    <Content Include="scss\base\_typography.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\pages\_blog.scss" />
+    <Content Include="scss\pages\_search.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\README.md" />
+    <Content Include="scss\vendors-extensions\_toastr.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\layout\_forms.scss" />
+    <Content Include="scss\layout\_header.scss" />
+    <Content Include="scss\layout\_menu.scss" />
+    <Content Include="scss\layout\_tables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\components\_buttons.scss" />
+    <Content Include="scss\components\_dropdown.scss" />
+    <Content Include="scss\components\_modal.scss" />
+    <Content Include="scss\components\_share-btn.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -12,6 +12,7 @@ img/favicons/
 fonts/*
 !fonts/Web.config
 !fonts/opensans.js
+!fonts/font-loading.js
 node_modules/
 package-lock.json
 npm-debug.log

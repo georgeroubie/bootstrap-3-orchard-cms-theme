@@ -1,6 +1,7 @@
 # Bootstrap 4 Orchard CMS Theme
 
 ## Installation
+
 ### Global Installation
 1. Install node js from [here](https://nodejs.org/en/download)
 2. Run `npm install npm@latest -g`
@@ -65,7 +66,6 @@
 + Responsive Register Form
 + Login, logout buttons to footer
 + Accept Cookies message
-+ Page loader with font-awesome icon
 + Disable button on form submit
 + Customized blogpost
 + Gulp for compiling SCSS, JavaScript compression, CSS Prefixing, Image minification etc.

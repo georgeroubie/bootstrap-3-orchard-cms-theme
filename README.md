@@ -5,6 +5,7 @@
 1. Install node js from [here](https://nodejs.org/en/download)
 2. Run `npm install npm@latest -g`
 3. Run `npm install rimraf -g`
+4. Run `npm install gulp -g`
 
 ### Theme Installation
 + `npm install`

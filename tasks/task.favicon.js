@@ -1,12 +1,11 @@
 ﻿var gulp = require('gulp'),
-    favicons = require('gulp-favicons'),
-    gutil = require('gulp-util');
+    favicons = require('gulp-favicons');
 
-var applicationName = 'Responsive Theme for Developers',
-    applicationDescription = 'This a responsive theme for orchard cms, for developers',
+var applicationName = 'Bootstrap 4 Orchard CMS THeme',
+    applicationDescription = 'This a bootstrap 4 theme for orchard cms',
     applicationPath = 'http://www.test.com',
     faviconBackground = '#ffffff',
-    faviconPath = '/Themes/responsive-theme-for-developers-orchard-cms/img/favicons/';
+    faviconPath = '/Themes/bootstrap-4-orchard-cms-theme/img/favicons/';
 
 gulp.task('favicon', function () {
     // Logo Size: 1500x1500 pixels
@@ -28,6 +27,5 @@ gulp.task('favicon', function () {
         pipeHTML: true,       
         replace: true
     }))
-    .on('error', gutil.log)
     .pipe(gulp.dest('./img/favicons/'));
 });

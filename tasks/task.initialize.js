@@ -1,23 +1,24 @@
 ﻿var gulp = require('gulp'),
-    runSequence = require('run-sequence');
+    requireDir = require('require-dir');
+   
+requireDir('./', { recurse: true });
 
-gulp.task('initialize', function () {
-    runSequence(
-        // Compress Images
-        'minify-img',
-        // Generate Favicon for multiple devices
-        'favicon',
-        // Copy fonts from node_modules
-        'fonts',
-        // SASS compiling, autoprefixing, compressing
-        'sass',
-        'prefix',
-        'minify-css',
-        // Generate the JS Files
-        'concatLib',
-        'compressLib',
-        'concatApp',
-        'compressApp',
-        'watch'
-    );
-});
+gulp.task('initialize', gulp.series(
+    // Compress Images
+    'minify-img',
+    // Generate Favicon for multiple devices
+    'favicon',
+    // Copy fonts from node_modules
+    //'fonts',
+    // SASS compiling, autoprefixing, compressing
+    'sass',
+    'prefix',
+    'minify-css',
+    // Generate the JS Files
+    'concatLib',
+    'compressLib',
+    'concatApp',
+    'compressApp',
+    'watch',
+    function (done) { console.log('Application Initialized') }
+));

@@ -49,6 +49,5 @@
     // Last Script
     $.when($('#loader').fadeOut('slow')).done(function () {
         $('#layout-wrapper').css('opacity', '1');
-        cookiebar();
     });
 }());

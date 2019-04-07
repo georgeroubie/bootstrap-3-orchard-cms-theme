@@ -1,6 +1,6 @@
 ﻿(function () {
     
-    //toast options
+    // Toastr options
     toastr.options = {
         'showDuration': '1000',
         'hideDuration': '1000',
@@ -18,7 +18,7 @@
         }
     });
     
-    //Two level dropdown menu
+    //nTwo level dropdown menu
     $('ul.dropdown-menu > li.dropdown-submenu > a').on('click', function (event) {
         // Avoid following the href location when clicking
         event.preventDefault();
@@ -33,7 +33,7 @@
         }
     });
 
-    //Toastr Messages 
+    // Toastr Messages 
     var messageElement;
     $('.zone-messages .message').each(function () {
         messageElement = $(this);
@@ -46,10 +46,9 @@
         }
     });
     
-    //Last Script
+    // Last Script
     $.when($('#loader').fadeOut('slow')).done(function () {
         $('#layout-wrapper').css('opacity', '1');
-        $.cookieBar();
+        cookiebar();
     });
-
 }());

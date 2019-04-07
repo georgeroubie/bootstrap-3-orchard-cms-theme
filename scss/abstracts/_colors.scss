@@ -1,38 +1,47 @@
 // Color Variables
 
+// CSS VARIABLES
 :root {
     --theme-textcolor: #000;
     --theme-lighttextcolor: #fff;
     --theme-backgroundcolor: #fff;
     --theme-maincolor: #005B72;
+    --theme-secondarycolor: #39b9da;
     --theme-inactivecolor: #8e969d;
     --theme-errorcolor: #d32f2f;
 }
 
-// Theme colors
+// THEME COLORS
 $theme-textcolor: var(--theme-textcolor);
 $theme-lighttextcolor: var(--theme-lighttextcolor);
 $theme-backgroundcolor: var(--theme-backgroundcolor);
 $theme-maincolor: var(--theme-maincolor);
+$theme-secondarycolor: var(--theme-secondarycolor);
 $theme-inactivecolor: var(--theme-inactivecolor);
 $theme-errorcolor: var(--theme-errorcolor);
 
-// General
+// GENERAL
 $titleColor: $theme-textcolor;
 $textColor: $theme-textcolor;
 $anchorColor: $theme-textcolor;
 
-// Loader
+// LOADER
 $loaderColor: $theme-maincolor;
 
-// Pager
+// PAGER
 $pagerActiveBackground: $theme-maincolor;
 $pagerActiveColor: $theme-lighttextcolor;
 $pagerBackground: $theme-backgroundcolor;
 $pagerColor: $theme-textcolor;
 
-// Search
+// SEARCH
 $searchResultItemColor: $theme-maincolor;
 
-// Forms
-$formValidationError: $theme-errorcolor
+// FORMS
+$formValidationError: $theme-errorcolor;
+
+// COOKIEBAR
+$cookiebarBackground: $theme-maincolor;
+$cookiebarTextColor: $theme-lighttextcolor;
+$cookiebarUnderstandButtonBackground: $theme-secondarycolor;
+$cookiebarReadmoreButtonBackground: $theme-secondarycolor;

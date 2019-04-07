@@ -1,12 +1,19 @@
 ﻿#cookie-bar {
-    background: #222; 
-    height: auto; 
-    line-height: 24px; 
-    color: #eee; 
-    text-align: center; 
-    padding: 5px 0;
+    cursor: default;
+    background: $cookiebarBackground; 
+    min-height: $cookiebarHeight; 
+    line-height: $cookiebarHeight; 
+    color: $cookiebarTextColor; 
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    transition: all 1s;
+    box-shadow: 0 4px 31px 25px rgba(0,0,0,0.14), 
+                0 6px 30px 5px rgba(0,0,0,0.12), 
+                0 8px 10px -5px rgba(0,0,0,0.3);
     &.fixed {
         position: fixed; 
+        z-index: $zindex; 
         top: 0; 
         left: 0; 
         width: 100%;
@@ -15,37 +22,23 @@
             top: auto;
         }
     }
-    p {
-        margin: 0; 
-        padding: 0;
-    }
     a {
-        color: #fff; 
-        display: inline-block; 
-        border-radius: 3px; 
-        text-decoration: none; 
-        padding: 0 6px; 
         margin-left: 8px;
-        &:hover {
-            color: #000;
-        }
+        display: inline-block;
+        color: $cookiebarTextColor;
+        height: #{$cookiebarHeight - 10px};
+        line-height: $cookiebarHeight;
+        padding: 0 10px;
+        display: inline-flex;
+        align-items: center;  
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: $buttonBorderRadius;
     }
-    .cb-enable {
-        background: #000;
-        &:hover {
-            background: #fff;
-        }
+    a.cb-enable {
+        background: $cookiebarUnderstandButtonBackground;
     }
-    .cb-disable {
-        background: #000;
-        &:hover {
-           background: #fff; 
-        }
-    }
-    .cb-policy {
-        background: #000;
-        &:hover {
-            background: #fff;
-        }
+    a.cb-policy {
+        background: $cookiebarReadmoreButtonBackground;
     }
 }

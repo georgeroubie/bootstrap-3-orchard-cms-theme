@@ -9,7 +9,7 @@
         'positionClass': 'toast-bottom-right'
     };
     
-    //Disable Submit Button on Submit
+    // Disable Submit Button on Submit
     $('form').submit(function () {
         if ($(this).valid()) {
             $(this).find('button[type="submit"]').prop('disabled', true)
@@ -18,7 +18,7 @@
         }
     });
     
-    //nTwo level dropdown menu
+    // Two level dropdown menu
     $('ul.dropdown-menu > li.dropdown-submenu > a').on('click', function (event) {
         // Avoid following the href location when clicking
         event.preventDefault();
@@ -44,10 +44,5 @@
         } else if (messageElement.hasClass('message-Error')) {
             toastr.error(messageElement.html());
         }
-    });
-    
-    // Last Script
-    $.when($('#loader').fadeOut('slow')).done(function () {
-        $('#layout-wrapper').css('opacity', '1');
     });
 }());

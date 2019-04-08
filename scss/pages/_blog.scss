@@ -47,7 +47,7 @@ ul.blog-posts {
     }
     button {
         @extend .btn;
-        @extend .btn-default;
+        @extend .btn-link;
     }
 }
 

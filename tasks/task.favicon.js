@@ -1,11 +1,11 @@
 ﻿var gulp = require('gulp'),
     favicons = require('gulp-favicons');
 
-var applicationName = 'Bootstrap 4 Orchard CMS THeme',
-    applicationDescription = 'This a bootstrap 4 theme for orchard cms',
+var applicationName = 'Bootstrap 3 Orchard CMS THeme',
+    applicationDescription = 'This a bootstrap 3 theme for orchard cms',
     applicationPath = 'http://www.test.com',
     faviconBackground = '#ffffff',
-    faviconPath = '/Themes/bootstrap-4-orchard-cms-theme/img/favicons/';
+    faviconPath = '/Themes/bootstrap-3-orchard-cms-theme/img/favicons/';
 
 gulp.task('favicon', function () {
     // Logo Size: 1500x1500 pixels

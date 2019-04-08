@@ -1,4 +1,4 @@
-# Bootstrap 4 Orchard CMS Theme
+# Bootstrap 3 Orchard CMS Theme
 
 ## Installation
 

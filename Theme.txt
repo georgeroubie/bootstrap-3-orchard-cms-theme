@@ -1,7 +1,7 @@
 Name: Bootstrap4OrchardCMSTheme
 Author: George Roubie
 Website: https://gr.linkedin.com/in/georgeroubie
-Description: Bootstrap 4 Orchard CMS Theme optimized for Orchard 1.10.2
+Description: Bootstrap 3 Orchard CMS Theme optimized for Orchard 1.10.2
 Version: 1.0.0
 Tags: Theme, Responsive, Bootstrap, jQuery, JS, JavaScript, Sass, Orchard, Toastr, FontAwesome, Developer, CSS, Gulp, npm
 Zones: Header, Navigation, BeforeMain, Featured, AsideFirst, Messages, BeforeContent, Content, AfterContent, AsideSecond, AfterMain, TripelFirst, TripelSecond, TripelThird, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, Footer

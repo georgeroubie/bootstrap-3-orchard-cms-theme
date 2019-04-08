@@ -1,7 +1,7 @@
 {
-    "name": "bootstrap-4-orchard-cms-theme",
+    "name": "bootstrap-3-orchard-cms-theme",
     "version": "1.0.0",
-    "description": "Bootstrap 4 Orchard CMS Theme optimized for Orchard 1.10.2",
+    "description": "Bootstrap 3 Orchard CMS Theme optimized for Orchard 1.10.2",
     "main": "Document.cshtml",
     "scripts": {
         "start": "gulp initialize"
@@ -33,12 +33,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/georgeroubie/bootstrap-4-orchard-cms-theme.git"
+        "url": "git+https://github.com/georgeroubie/bootstrap-3-orchard-cms-theme.git"
     },
     "author": "George Roubie",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/georgeroubie/bootstrap-4-orchard-cms-theme/issues"
+        "url": "https://github.com/georgeroubie/bootstrap-3-orchard-cms-theme/issues"
     },
-    "homepage": "https://github.com/georgeroubie/bootstrap-4-orchard-cms-theme#readme"
+    "homepage": "https://github.com/georgeroubie/bootstrap-3-orchard-cms-theme#readme"
 }

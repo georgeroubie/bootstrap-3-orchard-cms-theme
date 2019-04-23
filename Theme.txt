@@ -1,4 +1,4 @@
-Name: Bootstrap4OrchardCMSTheme
+Name: Bootstrap3OrchardCMSTheme
 Author: George Roubie
 Website: https://gr.linkedin.com/in/georgeroubie
 Description: Bootstrap 3 Orchard CMS Theme optimized for Orchard 1.10.2

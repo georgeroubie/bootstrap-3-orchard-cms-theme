@@ -1,11 +1,11 @@
 ﻿(function() {
     const message = 'WE USE COOKIES TO TRACK USAGE AND PREFERENCES';
     const acceptText = 'I UNDERSTAND';
-    const acceptButton = `<a href="" class="cb-enable waves-effect waves-light btn">'${acceptText}</a>`;
+    const acceptButton = `<a href="" class="cb-enable waves-effect waves-light btn">${acceptText}</a>`;
     const policyText = 'READ MORE';
     const policyURL = '';
-	const policyButton  = `<a href="'${policyURL}" class="cb-policy waves-effect waves-light btn" target="_blank">${policyText}</a>`;
-	const COOKIE_ENTRY = 'cb-enabled={value}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+    const policyButton  = `<a href="'${policyURL}" class="cb-policy waves-effect waves-light btn" target="_blank">${policyText}</a>`;
+    const COOKIE_ENTRY = 'cb-enabled={value}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
     const COOKIEBAR_HEIGHT = '30px';
 
     const retrieveCurrentCookiePreference = function() {

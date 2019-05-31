@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-3-orchard-cms-theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Bootstrap 3 Orchard CMS Theme optimized for Orchard 1.10.2",
     "main": "Document.cshtml",
     "scripts": {

@@ -36,7 +36,9 @@
         "last 2 versions",
         "Firefox ESR",
         "not dead",
-        "not IE 9-11"
+        "not IE 9-11",
+        "Android >= 4", 
+        "iOS >= 8"
     ],
     "repository": {
         "type": "git",
